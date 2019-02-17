@@ -1,0 +1,78 @@
+.background{
+    background-image: url("../images/wood_pattern_@2X.png");
+}
+
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+.instructions{
+    background-color: beige;
+}
+
+.gameboard {
+    background-color: beige;
+    text-align: center;
+}
+
+.ruby{
+    width: 100px; 
+}
+
+.sapphire{
+    width: 100px; 
+}
+
+.citrine{
+    width: 100px; 
+}
+
+.emerald{
+    width: 100px; 
+}
+
+.result-text {
+    font-weight: 500;
+    font-size: 25px;
+    border: 2px solid maroon;
+    background-color: whitesmoke;
+}
+
+.wins-losses {
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numbers {
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scoring-text {
+    background-color: beige;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.random-number {
+    background-color: greenyellow;
+    font-size: 75px;
+    text-align: center;
+    padding: 10px;
+}
+
+.total-score {
+    background-color: lightseagreen;
+    font-size: 75px;
+    text-align: center;
+    padding: 10px:
+}
