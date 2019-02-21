@@ -5,7 +5,7 @@ var citrine = Math.floor(Math.random() * 12) + 1;
 var emerald = Math.floor(Math.random() * 12) + 1;
 
 // set var for random start number from 19-120
-var randomNumber = Math.floor(Math.random() * 120 + 19);
+var randomNumber = Math.floor(Math.random() * (120 - 19) + 1) + 19;
 
 // set var to total incrementing score
 var totalscore = 0;
@@ -16,7 +16,7 @@ var losses = 0;
 
 // display the random number
 $(".random-number").text(randomNumber);
-console.log("randomNumber " + randomNumber);
+// console.log("randomNumber " + randomNumber);
 
 // set on clicks for crystals and assign values
 $(".ruby").on("click", function () {
