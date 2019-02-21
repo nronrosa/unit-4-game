@@ -5,7 +5,8 @@ var citrine = Math.floor(Math.random() * 12) + 1;
 var emerald = Math.floor(Math.random() * 12) + 1;
 
 // set var for random start number from 19-120
-var randomNumber = Math.floor(Math.random() * (120 - 19) + 1) + 19;
+// Math.floor(Math.random() * ((y-x)+1) + x);
+var randomNumber = Math.floor(Math.random() * ((120 - 19) + 1) + 19;
 
 // set var to total incrementing score
 var totalscore = 0;
